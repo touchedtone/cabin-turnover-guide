@@ -68,3 +68,17 @@ access:
   - {item: building entry lock, src: "ben — photo + steps TBD"}
   - {item: unit (apartment) door lock, src: "ben — photo + steps TBD"}
   - {item: Airbnb room door lock (Level lock) + TRMNL on the door, src: "record (DG-618212, DG-619129)"}
+
+# Ben 2026-09-23, floor-plan pass
+corrections:
+  - {fact: "entry door is on the EAST wall, next to the check-in shelf (not the south wall); swing is right", src: ben}
+  - {fact: "door can't open all the way — the boat-shaped shelf is behind it", src: ben}
+  - {fact: "light-blocker / draft-stopper bag hangs behind the door", src: "ben — photo coming"}
+  - {fact: "space heater under the hammock chair", src: "ben — photo coming"}
+  - {fact: "boat-shaped shelf next to the desk", src: "ben — photo coming"}
+  - {fact: "under the check-in shelf: hanging wine glasses + mugs; a hanging bag that holds toiletries", src: ben}
+  - {fact: "on the check-in shelf: TWO check-in buttons, toothbrush cup; iPad on the wall", src: ben}
+  - {fact: "bed-care note on the headboard — must stay in place", src: "ben — photo coming"}
+  - {fact: "towel ladder sticks far out into the room; purifier size is off on v1", src: "ben — photos coming"}
+  - {fact: "bed made: runner blanket across the foot (1/3 to 1/2 of the bed); 3 sleeping pillows + 2 square throws at the headboard; 2 pillows under the stereo shelf", src: ben}
+  - {fact: "plants: Ben will mark them on the plan", src: ben}

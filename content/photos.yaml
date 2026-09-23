@@ -35,7 +35,7 @@
   where: west wall
   flags: [wide, person]
 - id: "07"
-  camera: {x: 1450, y: 1350, facing: NW}
+  camera: {x: 1250, y: 1500, facing: NW}
   file: 07-bed-wide-window.jpg
   shows: The whole bed made from the SE. Blue linen duvet + brown leaf-pattern throw folded across the foot half, window wall, towel ladder, guitar.
   where: from the SE corner looking NW
