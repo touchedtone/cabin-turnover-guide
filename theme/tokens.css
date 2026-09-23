@@ -1,0 +1,12 @@
+/* Design tokens — the ONLY place style values live.
+   Swap this file (or override vars) to restyle web + print together.
+   Provisional until the cabin design system (DG-13936) lands. */
+:root{
+  --bg:#fbfaf7; --surface:#ffffff; --ink:#1f1d1a; --ink-2:#5c5750; --line:#e4e0d8;
+  --accent:#2f5d50; --accent-ink:#ffffff; --warn-bg:#fff4e0; --warn-ink:#7a4a00;
+  --font-body:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
+  --font-head:Georgia,"Times New Roman",serif;
+  --size-body:17px; --size-h1:28px; --size-h2:22px; --size-small:14px;
+  --space-1:4px; --space-2:8px; --space-3:16px; --space-4:24px; --space-5:40px;
+  --radius:10px;
+}

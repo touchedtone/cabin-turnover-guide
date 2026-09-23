@@ -1,0 +1,22 @@
+# THE CABIN — turnover guide. Single source of truth.
+# Edit this file; `npm run build` regenerates the web app AND the print PDF.
+# Schema: see README.md. Placeholder content only — real steps come next.
+meta:
+  title: The Cabin — Turnover Guide
+  version: 0.1.0
+  updated: 2026-09-23
+
+sections:
+  - id: arrive
+    title: Arrive
+    steps:
+      - id: placeholder-1
+        title: Placeholder step
+        photo: null            # e.g. photos/final/bed-made.jpg
+        do:
+          - First instruction line
+          - Second instruction line
+        if:                    # optional conditional callouts
+          - when: Something is off
+            then: What to do about it
+        supplies: []           # e.g. [fitted sheet, 2 pillowcases]

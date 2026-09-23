@@ -1,0 +1,11 @@
+{
+  "name": "cabin-turnover-guide",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "pdf": "npm run build && bash scripts/pdf.sh",
+    "serve": "npm run build && npx --yes serve dist"
+  },
+  "dependencies": { "yaml": "^2.5.0" }
+}

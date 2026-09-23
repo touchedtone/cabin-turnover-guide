@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<title>Turnover Guide — print</title><link rel="stylesheet" href="theme/print.css"></head>
+<body><div id="doc"></div>
+<script src="guide.js"></script><script src="shared.js"></script>
+<script>
+const G = window.GUIDE; let n = 0;
+document.getElementById('doc').innerHTML =
+  `<div class="cover"><h1>${esc(G.meta.title)}</h1><p>v${esc(G.meta.version)} · updated ${esc(G.meta.updated)}</p></div>` +
+  G.sections.map(sec => `<div class="sec"><h2>${esc(sec.title)}</h2>` + sec.steps.map(s => `
+    <div class="step"><div class="n">${++n}</div><div>
+      <h3><span class="box"></span>${esc(s.title)}</h3>
+      ${s.photo ? `<img src="${imgSrc(s.photo)}" alt="">` : ''}
+      ${(s.do||[]).length ? `<ol>${s.do.map(d => `<li>${esc(d)}</li>`).join('')}</ol>` : ''}
+      ${(s.if||[]).map(c => `<div class="if"><b>If ${esc(c.when)}:</b> ${esc(c.then)}</div>`).join('')}
+      ${(s.supplies||[]).length ? `<div class="supplies">Need: ${s.supplies.map(esc).join(', ')}</div>` : ''}
+    </div></div>`).join('') + `</div>`).join('');
+</script></body></html>
