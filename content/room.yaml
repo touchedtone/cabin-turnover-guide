@@ -1,0 +1,70 @@
+# THE CABIN — room model. Compass is the floor plan's orientation (12-floorplan-draft.png):
+#   NORTH = top of the plan = window wall · WEST = headboard wall · SOUTH = desk / closet / entry-door wall · EAST = projector-screen wall
+# Status per fact: ben = Ben said it · photo = read from a photo (Claude) · guess = Claude's inference, confirm.
+# Feeds the floor plan (DG-619499) and the steps (DG-619500).
+
+plan_accuracy:   # Ben 2026-09-23 on 12-floorplan-draft.png
+  accurate: [bed proportions, entry door + its swing, ceiling rafters (3 beams running N–S), closet size + position, window position]
+  not_accurate: [desk (brown block, bottom center), rugs (position and size)]
+
+walls:
+  north:   # window wall — 07, 09
+    - {item: window with grey curtains tied back, src: photo}
+    - {item: window AC unit (GE), under the window, src: photo}
+    - {item: "shelves left of window: speakers, stereo amplifier, rotary phone, books, cassette rack, plants", src: photo}
+    - {item: "shelves right of window: COFFEE/TEA STATION — electric kettle, French press, honey, sugar, mugs, measuring spoons on hooks", src: photo}
+    - {item: light switch + dimmer at the NW corner above the bed, src: photo}
+    - {item: "bird-of-paradise plant + acoustic guitar ('President Ford' sticker) in the NE corner", src: photo}
+  west:    # headboard wall — 06, 08
+    - {item: "bed headboard: leather cushions hung on straps; 3 sleeping pillows + 2 grey throw pillows + leather bolster + macramé pillow", src: photo}
+    - {item: large wood-framed mirror above the headboard, src: photo}
+    - {item: "narrow ledge shelf under the mirror: tissue box, brass mister, oil lamp, jars, tin", src: photo}
+    - {item: "nightstand left (south) of the bed: wood-slice coaster, radio/clock, plant, clamp lamp", src: photo}
+    - {item: hammock chair hanging south of the nightstand, src: photo}
+    - {item: "bathrobe on a hand-drill-crank hook, beside the closet doorframe (with a belt, rope, folding step stool below)", src: "ben + photo (03)"}
+  south:   # 13 (empty room, before), plan
+    - {item: closet in the SW corner — door removed, beige linen curtain across the opening, src: "photo (04, 13) — guess that 04 is the closet curtain, confirm"}
+    - {item: desk along the south wall, src: ben}
+    - {item: round mirror near the desk, src: "ben — not photographed yet"}
+    - {item: entry door in the SE corner, swings into the room, src: "ben + plan"}
+  east:    # projector-screen wall — 10, 11
+    - {item: pull-down projector screen, high and centered, src: photo}
+    - {item: "towel ladder: 2 washcloths (1 white, 1 brown), 1 brown bath towel, 1 grey towel", src: photo}
+    - {item: air purifier (Alen) on the floor beside the ladder, src: photo}
+    - {item: "shelf near the door: 2 wine glasses hanging below, 2 brown mugs on hooks, snake plant, corn-starch tin, candy jar, ginger jar, bottles", src: photo}
+    - {item: "'The Cabin' CHECK IN / CHECK OUT sign + button on that shelf (press at start and end of stay)", src: photo}
+    - {item: black wall tablet right of the shelf, near the light switch, src: "photo — what it is? confirm"}
+    - {item: "'Bathroom & Shower' card hanging from the shelf's right end", src: photo}
+    - {item: folding TV tray table against the wall under the shelf, src: photo}
+    - {item: wicker trash basket with a grey liner, under the tray table, src: photo}
+    - {item: mesh tote bag hanging on the right end of the shelf, src: photo}
+    - {item: framed prints + a wall-hung old guitar above, src: photo}
+
+closet:   # SW corner
+  high_shelf:   # 01
+    - {item: "bath products in a row, left→right: Almond & Shea Butter shampoo · Cucumber & Mint conditioner · Unscented body wash · Citrus & Bergamot facial cleanser · Desert Grass & Sandalwood conditioner · Coconut & Vanilla shampoo (all Native)", src: photo}
+    - {item: cardboard boxes above and to the right of the bottles, src: photo}
+    - {item: an upper, higher storage shelf holding things, src: "ben — photo coming"}
+  rod:          # 01, 02
+    - {item: wooden hangers + umbrella hanging on the rod, src: "ben + photo"}
+  hanging_organizer:  # 02, 05 — right side of the closet, top→bottom
+    - {slot: 1, item: iron, src: ben}
+    - {slot: 2, item: "white pillowcases + black sleep masks in a wire basket", src: ben}
+    - {slot: 3, item: hand mirror, src: ben}
+    - {slot: 4, item: empty, src: photo}
+    - {slot: 5, item: empty, src: photo}
+    - {slot: side-pocket, item: green mesh item, src: "photo — what is it?"}
+  floor:        # 05
+    - {item: Black+Decker mini fridge, src: photo}
+    - {item: "on top of the fridge: dish rack with plates (bowls/plates) + silverware caddy", src: "ben + photo"}
+    - {item: ironing board standing behind the fridge, src: "ben + photo"}
+    - {item: umbrellas (2 wooden-handled) in the back-left corner, src: "ben + photo"}
+    - {item: hair dryer, src: "ben — not clearly visible in 05"}
+
+under_bed:
+  - {item: "storage containers — contents map TBD (Ben to photograph + name each)", src: ben}
+
+access:
+  - {item: building entry lock, src: "ben — photo + steps TBD"}
+  - {item: unit (apartment) door lock, src: "ben — photo + steps TBD"}
+  - {item: Airbnb room door lock (Level lock) + TRMNL on the door, src: "record (DG-618212, DG-619129)"}

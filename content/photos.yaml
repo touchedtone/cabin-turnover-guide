@@ -1,0 +1,75 @@
+# Photo inventory. Raw originals live in assets/photos/raw/ (gitignored: never pushed, this repo is public).
+# Only processed files in assets/photos/final/ are published.
+# flags: wide = ultra-wide lens distortion (needs correction) · person = Ben visible in the mirror (NOT publishable as-is)
+- id: 01
+  file: 01-closet-top-shelf-soaps.jpg
+  shows: Closet, looking up. Upper shelf with 6 Native bottles in a set order, boxes above and right, closet rod and hangers below.
+  where: closet (SW), high shelf
+  use: "\"How the soap shelf should look\" reference; restock step"
+- id: 02
+  file: 02-closet-organizer.jpg
+  shows: Inside the closet. Hanging fabric organizer on the right (iron / pillowcases + sleep masks / hand mirror), hangers + umbrella on the rod on the left, ironing board, umbrellas, and the plates + silverware on top of the fridge below.
+  where: closet (SW)
+  use: closet map; where the spare pillowcases and the iron live
+- id: 03
+  file: 03-robe-hook.jpg
+  shows: Grey bathrobe on a wooden hanger hooked on the crank hook. Belt and rope to its left, folding step stool below, speaker and pothos plant to its right.
+  where: west wall, by the closet doorframe
+  use: "\"robe goes back here\" step"
+- id: 04
+  file: 04-closet-curtain.jpg
+  shows: Beige linen curtain beside white door trim, with a warm light behind it.
+  where: closet opening (Claude's read, not confirmed)
+  use: "\"close the closet curtain\" in the final check"
+  flags: [confirm]
+- id: 05
+  file: 05-closet-floor-minifridge.jpg
+  shows: Closet floor from above. Black+Decker mini fridge; plates and silverware caddy on top; ironing board behind; umbrellas back-left; the organizer's lower slots (empty) on the right.
+  where: closet (SW), floor
+  use: fridge check/clean step; dishes location
+  flags: ["better fridge view coming (Ben)"]
+- id: 06
+  file: 06-headboard-mirror-tall.jpg
+  shows: Bed made, looking at the headboard wall. Pillow arrangement, mirror, ledge shelf, nightstand + lamp, pothos.
+  where: west wall
+  use: "\"pillows look like this\" bed-making reference"
+  flags: [wide, person]
+- id: 07
+  file: 07-bed-wide-window.jpg
+  shows: The whole bed made from the SE. Blue linen duvet + brown leaf-pattern throw folded across the foot half, window wall, towel ladder, guitar.
+  where: from the SE corner looking NW
+  use: HERO — "the room when it's done"; bed-making reference
+  flags: [wide]
+- id: 08
+  file: 08-headboard-wide-hammock.jpg
+  shows: Headboard wall wide. Hammock chair, robe, nightstand, pillow arrangement, mirror, speaker.
+  where: west wall
+  use: pillow arrangement; hammock + nightstand placement
+  flags: [wide, person]
+- id: 09
+  file: 09-window-wall.jpg
+  shows: Window wall straight on. AC unit, curtains tied back, left shelves (stereo), right shelves (coffee/tea station), throw on the bed.
+  where: north wall
+  use: coffee/tea station restock; curtains tied back; AC. Cleanest photo of the set.
+- id: 10
+  file: 10-screen-wall.jpg
+  shows: Projector-screen wall. Towel ladder with its set towel count, air purifier, mug/glass shelf, TV tray, trash basket, doorway to the hall at right.
+  where: east wall
+  use: towels step; trash step; purifier
+  flags: [wide]
+- id: 11
+  file: 11-door-shelf-checkin.jpg
+  shows: Close-up by the door. Shelf with the 'The Cabin' check-in/out sign + button, wall tablet, mugs, wine glasses, 'Bathroom & Shower' card, TV tray, trash basket, hall rug.
+  where: east wall, by the entry door
+  use: check-in/out button; mugs + glasses count; trash
+  flags: [wide]
+- id: 12
+  file: 12-floorplan-draft.png
+  shows: Ben's top-down plan. Bed, closet (SW), window (N), entry-door swing (SE), 3 ceiling rafters, desk + nightstand blocks, 2 rugs.
+  where: whole room
+  use: BASE for the floor plan (DG-619499). Desk and rugs are not accurate; everything else is.
+- id: 13
+  file: 13-empty-room-before.jpg
+  shows: The empty room before it was set up. Entry door at left, closet (with no door) at right, bare south wall between them.
+  where: from the north looking at the SE/SW corners
+  use: geometry reference only — not for the guide

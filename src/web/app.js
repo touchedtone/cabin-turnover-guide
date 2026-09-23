@@ -18,7 +18,7 @@ function render(){
       <button id="back" ${i === 0 ? 'disabled' : ''}>Back</button>
       <button id="next" class="primary">${i === steps.length - 1 ? 'Done' : 'Next'}</button>
     </div>
-    <div style="text-align:center;margin-top:12px"><button class="link" id="restart">Start over</button></div>`;
+    <div style="text-align:center;margin-top:12px"><button class="link" id="restart">Start over</button> · <a class="link" href="turnover-guide.pdf">Printable PDF</a></div>`;
   document.getElementById('back').onclick = () => { i--; render(); };
   document.getElementById('next').onclick = () => { if (i < steps.length - 1) { i++; render(); } };
   document.getElementById('restart').onclick = () => { i = 0; render(); };

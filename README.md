@@ -32,4 +32,8 @@ All style values live in `theme/tokens.css`. `web.css` and `print.css` only refe
 - `assets/floorplan/` — floor plan SVG.
 
 ## Home + sync
-Lives at `~/cabin-turnover-guide` on alvin, remote on GitHub (touchedtone). Web hosting: TBD. ⚠️ The guide may carry door codes or the address, so hosting must not be public by accident.
+Lives at `~/cabin-turnover-guide` on alvin, remote on GitHub (touchedtone/cabin-turnover-guide, PUBLIC). Every push to main rebuilds the web app + PDF and publishes to GitHub Pages (Ben 2026-09-23: public page is fine). Raw photos stay local (gitignored) — only `assets/photos/final/` is published.
+
+## Room + photos
+- `content/room.yaml` — what's where, wall by wall (N = window, W = headboard, S = desk/closet/door, E = screen).
+- `content/photos.yaml` — every source photo: what it shows, where, what it's for, flags.
