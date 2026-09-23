@@ -1,6 +1,7 @@
 // guide.yaml -> dist/ (web app + print page share one data file + one theme).
 import { readFileSync, writeFileSync, mkdirSync, cpSync, existsSync } from 'node:fs';
 import { parse } from 'yaml';
+import { renderFloorplan } from './floorplan.mjs';
 const guide = parse(readFileSync('content/guide.yaml', 'utf8'));
 const ids = new Set();
 for (const s of guide.sections) for (const st of s.steps) {
@@ -9,6 +10,9 @@ for (const s of guide.sections) for (const st of s.steps) {
   if (st.photo && !existsSync('assets/' + st.photo)) console.warn(`! missing photo for ${st.id}: assets/${st.photo}`);
 }
 mkdirSync('dist', { recursive: true });
+const svg = renderFloorplan(parse(readFileSync('content/floorplan.yaml', 'utf8')), parse(readFileSync('content/photos.yaml', 'utf8')));
+mkdirSync('assets/floorplan', { recursive: true });
+writeFileSync('assets/floorplan/floorplan.svg', svg);
 writeFileSync('dist/guide.js', 'window.GUIDE = ' + JSON.stringify(guide, null, 2) + ';\n');
 cpSync('src/shared.js', 'dist/shared.js');
 cpSync('src/web/index.html', 'dist/index.html');

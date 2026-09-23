@@ -23,7 +23,7 @@ walls:
     - {item: hammock chair hanging south of the nightstand, src: photo}
     - {item: "bathrobe on a hand-drill-crank hook, beside the closet doorframe (with a belt, rope, folding step stool below)", src: "ben + photo (03)"}
   south:   # 13 (empty room, before), plan
-    - {item: closet in the SW corner — door removed, beige linen curtain across the opening, src: "photo (04, 13) — guess that 04 is the closet curtain, confirm"}
+    - {item: closet in the SW corner — door removed, beige linen curtain across the opening, src: "ben (04 confirmed 9/23)"}
     - {item: desk along the south wall, src: ben}
     - {item: round mirror near the desk, src: "ben — not photographed yet"}
     - {item: entry door in the SE corner, swings into the room, src: "ben + plan"}
@@ -32,8 +32,8 @@ walls:
     - {item: "towel ladder: 2 washcloths (1 white, 1 brown), 1 brown bath towel, 1 grey towel", src: photo}
     - {item: air purifier (Alen) on the floor beside the ladder, src: photo}
     - {item: "shelf near the door: 2 wine glasses hanging below, 2 brown mugs on hooks, snake plant, corn-starch tin, candy jar, ginger jar, bottles", src: photo}
-    - {item: "'The Cabin' CHECK IN / CHECK OUT sign + button on that shelf (press at start and end of stay)", src: photo}
-    - {item: black wall tablet right of the shelf, near the light switch, src: "photo — what it is? confirm"}
+    - {item: "'The Cabin' CHECK IN / CHECK OUT sign + button on that shelf", src: photo}
+    - {item: "iPad on the wall right of the shelf, near the light switch — always plugged in; instructions TBD by Ben", src: ben}
     - {item: "'Bathroom & Shower' card hanging from the shelf's right end", src: photo}
     - {item: folding TV tray table against the wall under the shelf, src: photo}
     - {item: wicker trash basket with a grey liner, under the tray table, src: photo}
@@ -59,7 +59,7 @@ closet:   # SW corner
     - {item: "on top of the fridge: dish rack with plates (bowls/plates) + silverware caddy", src: "ben + photo"}
     - {item: ironing board standing behind the fridge, src: "ben + photo"}
     - {item: umbrellas (2 wooden-handled) in the back-left corner, src: "ben + photo"}
-    - {item: hair dryer, src: "ben — not clearly visible in 05"}
+    - {item: "hair dryer (black) in a holster on the closet's LEFT inside wall, far left", src: ben}
 
 under_bed:
   - {item: "storage containers — contents map TBD (Ben to photograph + name each)", src: ben}

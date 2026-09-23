@@ -1,0 +1,26 @@
+# THE CABIN — floor plan, top-down. Units = Ben's plan (raw/12-floorplan-draft.png), 1594 wide × 2000 deep.
+# North (top) = window wall. Edit numbers here; `npm run build` redraws assets/floorplan/floorplan.svg.
+# confidence: sure = Ben says accurate · approx = placed from photos, correct me · off = Ben says wrong, pending floor photo
+room: {w: 1594, h: 2000, wall: 28}
+window: {x1: 565, x2: 1035}              # gap in the north wall — sure
+door: {hinge_x: 1566, hinge_y: 1972, r: 435}   # SE corner, swings into the room — sure
+rafters: [480, 1105]                     # ceiling beams, N–S, centerline x — sure
+items:
+  - {id: bed,        label: Bed,                x: 28,   y: 110,  w: 1202, h: 855, kind: furniture, confidence: sure}
+  - {id: headboard,  label: Headboard,          x: 28,   y: 110,  w: 60,   h: 855, kind: fixture,   confidence: approx}
+  - {id: closet,     label: Closet,             x: 28,   y: 1665, w: 437,  h: 307, kind: room,      confidence: sure}
+  - {id: shelf-nw,   label: Shelves (stereo),   x: 28,   y: 28,   w: 437,  h: 70,  kind: shelf,     confidence: sure}
+  - {id: shelf-ne,   label: Coffee / tea shelves, x: 1125, y: 28, w: 441,  h: 70,  kind: shelf,     confidence: sure}
+  - {id: ac,         label: AC,                 x: 650,  y: 28,   w: 300,  h: 60,  kind: fixture,   confidence: approx}
+  - {id: nightstand, label: Nightstand,         x: 28,   y: 995,  w: 222,  h: 325, kind: furniture, confidence: sure}
+  - {id: hammock,    label: Hammock chair,      x: 60,   y: 1340, w: 260,  h: 230, kind: soft,      confidence: approx}
+  - {id: robe,       label: Robe hook,          x: 28,   y: 1590, w: 40,   h: 60,  kind: fixture,   confidence: approx}
+  - {id: desk,       label: Desk,               x: 510,  y: 1790, w: 560,  h: 182, kind: furniture, confidence: off}
+  - {id: round-mirror, label: Round mirror (on wall), x: 640, y: 1950, w: 300, h: 22, kind: fixture, confidence: approx}
+  - {id: plant-guitar, label: Guitar,   x: 1400, y: 110,  w: 166,  h: 230, kind: soft,      confidence: approx}
+  - {id: ladder,     label: Towel ladder,       x: 1476, y: 380,  w: 90,   h: 300, kind: furniture, confidence: approx}
+  - {id: purifier,   label: Air purifier,       x: 1466, y: 700,  w: 100,  h: 200, kind: furniture, confidence: approx}
+  - {id: shelf-door, label: Check-in shelf · iPad, x: 1506, y: 950, w: 60, h: 520, kind: shelf, confidence: approx}
+  - {id: tray-trash, label: TV tray + trash,    x: 1380, y: 1060, w: 110,  h: 260, kind: furniture, confidence: approx}
+  - {id: screen,     label: Projector screen (high), x: 1540, y: 300, w: 26, h: 620, kind: fixture,  confidence: approx}
+rugs: pending   # Ben: rug position + size on the draft are wrong — redraw from the floor photo
