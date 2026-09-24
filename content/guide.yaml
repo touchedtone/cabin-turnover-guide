@@ -2,12 +2,12 @@
 # Edit this file; `npm run build` regenerates the web app AND the print PDF. Push to main = both republish.
 # Schema: see README.md.
 #
-# v0.3 (2026-09-24): Ben's answers folded in; no open questions in the guide itself — those live in
-# content/open-items.md (not rendered). Every line still needs Ben's OK before it goes to S&S.
+# v1.0 (2026-09-24): print version for the binder. Ben's answers + his 9/24 photos folded in.
+# Open items live in content/open-items.md (not rendered).
 # photo: points at the planned final asset; a build warning "missing photo" = a shot still needed.
 meta:
   title: The Cabin — Turnover Guide
-  version: 0.3.0
+  version: 1.0.0
   updated: 2026-09-24
 
 sections:
@@ -91,7 +91,7 @@ sections:
         do:
           - Guests are told to leave the fridge EMPTY and OPEN at checkout (it switches off at checkout and defrosts).
           - Take out anything left inside.
-          - "There's a defrost dish inside: check it for water. It spills easily when pulled — stuff paper towels in first to soak it up, then pull it out and empty it."
+          - "There's a defrost dish inside (pictured). Check it for water — it shouldn't have any, but sometimes it's full. If it is: stuff a bunch of paper towels in to soak up the water first, then pull the dish out and empty it. Pulled out full, it spills."
           - Wipe the inside with the bleach spray cleaner from behind the toilet and paper towels.
           - Close the fridge once it's clean.
         if:
@@ -140,17 +140,17 @@ sections:
       - id: cleaning-kit
         title: The cleaning kit
         do:
-          - "Lint roller · all-purpose cleaner · water + a toothbrush for spot cleaning · pillow chocolates."
+          - "Sticky lint roller (the most effective one) · lint-rolling glove · all-purpose cleaner · a spray bottle of water + a toothbrush for spot cleaning · chocolates for the bed."
 
   - id: bed-make
     title: Make the bed
     steps:
       - id: sheets
         title: Fresh sheets
-        photo: photos/final/07-bed-made.jpg
+        photo: photos/final/bed-overhead.jpg
         do:
           - Fresh fitted sheet and flat sheet from the sheets container.
-          - The runner blanket goes across the foot of the bed, covering the bottom third to half.
+          - The runner blanket goes across the foot of the bed, covering the bottom two-thirds, as pictured.
       - id: pillows
         title: Pillows
         photo: photos/final/06-headboard.jpg
@@ -204,7 +204,7 @@ sections:
     steps:
       - id: nightstand
         title: Set the nightstand
-        photo: photos/final/08-hammock.jpg
+        photo: photos/final/nightstand.jpg
         do:
           - Noise machine on the "meadow" setting at a reasonable volume.
           - The accordion lamp on, aimed over the nightstand.
@@ -266,10 +266,15 @@ sections:
             then: throw it out and replace it with the full one of the same kind from behind it in the closet.
       - id: closet-rest
         title: The rest of the closet
-        photo: photos/final/02-closet.jpg
+        photo: photos/final/closet-floor.jpg
         do:
-          - Hair dryer hanging in its holster on the left inside wall of the closet.
-          - "On top of the fridge: at least two of each — 2 plates, 2 bowls, 2 of each utensil."
+          - Hair dryer hanging in its holster on the left inside wall of the closet (pictured, left).
+          - "On top of the fridge: at least two of each — 2 plates, 2 bowls, 2 of each utensil — in the rack."
+      - id: makeup-wipes
+        title: Makeup wipes
+        photo: photos/final/organizer-wipes.jpg
+        do:
+          - The makeup wipes (facial towels) live in the mesh side pocket of the hanging organizer in the closet, as pictured. Make sure there are some.
 
   - id: bathroom
     title: Bathroom
@@ -311,6 +316,7 @@ sections:
           - Take the bags out to the front gated area of the building.
       - id: last-look
         title: Last look
+        photo: photos/final/07-bed-made.jpg
         do:
           - Every lamp on. Curtains open. Remotes on the dish. Both guides in place. Purifier on. Fridge closed. Containers pushed back.
           - Take a photo of the finished room and send it to Ben.
