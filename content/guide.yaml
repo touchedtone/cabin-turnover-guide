@@ -7,7 +7,7 @@
 # photo: points at the planned final asset; a build warning "missing photo" = a shot still needed.
 meta:
   title: The Cabin — Turnover Guide
-  version: 1.0.0
+  version: 1.1.0
   updated: 2026-09-24
 
 sections:
@@ -30,15 +30,14 @@ sections:
     steps:
       - id: building-door
         title: Open the building's front door
-        photo: photos/final/ultraloq-diagram.svg
         do:
           - The lock is a keypad lock with a key slot in the front (an Ultraloq U-Bolt).
           - Enter the code, then press the bean-shaped button at the BOTTOM of the keypad. That button is what actually unlocks the door — it's the part people miss.
-          - The apartment door has the same kind of lock and works the same way.
+          - The unit door has the same kind of lock and works the same way.
       - id: apartment-door
-        title: Find the apartment
+        title: Find the unit
         do:
-          - The apartment is the FIRST DOOR ON THE RIGHT — the first door you reach.
+          - The unit is the FIRST DOOR ON THE RIGHT — the first door you reach.
           - "Enter the code, press the bean-shaped button at the bottom."
       - id: room-door
         title: Find the guest room
@@ -66,7 +65,7 @@ sections:
         title: Turn all the lights on
         photo: photos/final/hue-remote.jpg
         do:
-          - Use the remote on the wall just to the right of the door — press the yellow power button.
+          - Use the white switch on the wall just to the right of the door — press the top button (marked ON).
           - Every lamp in the room should light up. A lamp that stays dark has been switched off at the lamp or unplugged — switch it back on / plug it in.
           - All lamps must be left powered ON. The lights are controlled remotely, and a lamp switched off at the lamp can't be controlled.
       - id: echo
@@ -134,8 +133,9 @@ sections:
         title: Find what you need under the bed
         photo: photos/final/under-bed-containers.jpg
         do:
-          - "Three BIG containers, side by side: duvet covers · towels · sheets."
-          - "Three SMALL containers, one in front of each big one: hand towels + washcloths (in front of towels) · pillowcases (in front of sheets) · cleaning kit (in front of duvet covers)."
+          - Long containers under the bed, in two rows — three small ones in front, three big ones behind them.
+          - "FRONT row, left to right as you look under the left side of the bed: cleaning kit · hand towels + washcloths · pillowcases."
+          - "BACK row, behind each of those: duvet covers (behind the cleaning kit) · towels (behind the hand towels) · sheet sets (behind the pillowcases)."
           - A sheet set is a fitted sheet and a flat sheet.
       - id: cleaning-kit
         title: The cleaning kit
@@ -174,7 +174,7 @@ sections:
     title: Window wall
     steps:
       - id: window-wall
-        title: Set the window wall
+        title: Curtains, air conditioner, lamp
         photo: photos/final/09-window-wall.jpg
         do:
           - Curtains open and tucked behind the boat cleats.
@@ -203,7 +203,7 @@ sections:
     title: Nightstand
     steps:
       - id: nightstand
-        title: Set the nightstand
+        title: Noise machine and nightstand lamp
         photo: photos/final/nightstand.jpg
         do:
           - Noise machine on the "meadow" setting at a reasonable volume.
@@ -217,7 +217,7 @@ sections:
     title: Desk wall
     steps:
       - id: desk
-        title: Set the desk
+        title: Desk
         photo: photos/final/desk.jpg
         do:
           - Wipe the desk with a damp paper towel and the all-purpose cleaner from the cleaning kit. The desk is wood — never bleach.
@@ -326,7 +326,7 @@ sections:
         do:
           - Put the door screen back on the door if you had it charging.
           - Lock the bolt.
-          - Press the turnover button on the right, just outside the door, ONCE. That tells Ben the turnover is done.
+          - "Outside the room's door, on the RIGHT side of the door frame, there's a tiny white button — feel for it and you'll find it. Press it ONCE, quickly. That marks the turnover done."
           - If you pressed it by mistake, a double press undoes it.
 
   - id: laundry
