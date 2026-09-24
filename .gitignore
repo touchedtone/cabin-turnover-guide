@@ -2,3 +2,4 @@ node_modules/
 dist/
 assets/photos/raw/
 .DS_Store
+content/private/

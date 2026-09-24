@@ -27,7 +27,7 @@ Not steps yet. Ben decides what becomes a step. "steps that can be rearranged."
 ## Supplies — outside the room
 - Vacuum stick: kitchen. Vacuum base: basement, tool wall. Old photos highlight each; probably replace.
 - Laundry bag(s): two of them; live outside the unit in the hallway. Stripped sheets/pillowcases go in the bag.
-  - Version A: bag is down the hallway behind the keypad door, hanging on the wall, keypad code 2880.
+  - Version A: bag is down the hallway behind the keypad door, hanging on the wall, keypad code — see content/private/codes.md (never in the repo).
   - Version B: bag lives in the kitchen, or the hallway outside the kitchen.
   - Newer wording: "I may have left the black laundry backpack in the kitchen for you or in the hallway. If not, it's outside the unit at the end of the hall." Interactive: if they see it, skip the flow; if not, appendix with the door down the hall to the left + photos + code. Print: appendix at the end.
 - Garbage bags: roll is in the bin UNDER the current bag, inside the Airbnb (not outside).
@@ -104,3 +104,22 @@ Not steps yet. Ben decides what becomes a step. "steps that can be rearranged."
 - Desk: quick wipe with a damp paper towel — ADD, yes.
 - Snacks: biscotti / Ricolas more than half empty → refill. Refills are in the cocotte on Ben's stovetop (photo; may change).
 - Both guides in place.
+
+## Ben's answers to the DoGood sweep — 2026-09-23, later
+- CORRECTION (Claude's error): the TURNOVER button is the Flic on the doorway. The CHECK-IN and CHECK-OUT buttons are two separate Amazon Echo buttons on the check-in shelf. Unrelated devices. The "press after check-in time" problem (DG-618738) is about the check-out Echo button.
+- Door screen (TRMNL): as soon as they arrive, if it shows the low-battery indicator (maybe redesign it to be more visible, or a diagram showing where it is on the screen): take it off, plug it into the USB-C charger on the nightstand in the room, charge it during the turnover and as long as they can, put it back up before they leave.
+- Plant watering: its own page/section. Not everyone will do it. Ben would like photos of the plants sent to him so he knows how they look. Note plant locations. Overlaps the house-sitter plant-watering guide Ben also has to create.
+- Add: clarify duvet COVER, not duvet.
+- Add: brush the toilet once over — the toilet brush is next to the toilet (capture where).
+- Add: toothbrush cup — give it a rinse.
+- Add: "don't be afraid to ask questions."
+- Add (plant section): don't stand on the wicker chair, use the step stool.
+- Add: TIMING — unless Ben says otherwise, turnovers can start at 11am; the guest won't come before 2pm but CAN be counted on to come at 2pm, so it must be done by then.
+- "Padlock" → "the door lock" / "the bolt"; indicate it on the door. The key is now inside the room; the guide doesn't need to say where.
+- Fridge-button label: deferred. Lock signage + checkout-button signage: maybe, if everything else is done. Checkout button not pressed: terminal redesign, not this.
+- Guest Wi-Fi name: belongs in the ROOM guide, not this one. Three guides exist: recommendations guide, room guide, turnover guide. This is the turnover guide.
+- Codes reconciled: the laundry-closet keypad code and the "Laundry" code are two different doors (laundry closet vs. building front door for the pickup person). Both correct; values in content/private/codes.md.
+- This trip: hampers go in the hallway outside Ben's apartment.
+- Towels bought; soap + conditioner bought and refilled.
+- Add: if any closet product feels completely empty, throw it out and replace it with the full one of the same kind from behind it in the closet.
+- Batteries (locks, Ring), IFTTT flash, subletter mode: Ben's own prep, NOT the guide.

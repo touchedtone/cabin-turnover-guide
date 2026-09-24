@@ -30,7 +30,7 @@ Every open row that says something the guide might carry. Ben decides what goes 
 - DG-615584: remove "air conditioner and heater" from the checkout speech; automations handle it. (Matches Ben's 9/23 heater note.)
 - DG-618277: checkout-day checklist on the door screen: "Press the checkout button first / Leave the mini fridge open and empty / Make sure AC / HEAT is off" — what GUESTS are told, so the turnover person knows what to expect.
 - DG-618849: turnover calendar on the spare TRMNL for the turnover people — not built yet; preview first.
-- DG-616616/DG-514030 Codes: Turnover 1905 · Laundry 5505 · Airbnb Guest 1908 · Airbnb Luggage 4242. (Ben's 9/23 walkthrough says the laundry keypad is 2880 — differs from the Codes row's "Laundry — 5505." One of them is stale.)
+- DG-616616/DG-514030 Codes rows: four door codes (turnover, laundry, guest, luggage) — values in content/private/codes.md, never here. Reconciled 9/23: the laundry-closet keypad and the "Laundry" building-door code are different doors.
 - DG-616203: Airbnb door — add an auto-closer, door stopper on the bottom.
 
 ## Pre-departure prep that the guide depends on (Ben's own to-dos, open)
