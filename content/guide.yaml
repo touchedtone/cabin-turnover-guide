@@ -1,17 +1,13 @@
 # THE CABIN — turnover guide. Single source of truth.
-# Edit this file; `npm run build` regenerates the web app AND the print PDF.
+# Edit this file; `npm run build` regenerates the web app AND the print PDF. Push to main = both republish.
 # Schema: see README.md.
 #
-# DRAFT v0.2 (Claude, 2026-09-24) — every line drafted from Ben's 9/23 walkthrough of the old guide
-# (content/dictation-2026-09-23-old-guide-walkthrough.md) and his 9/23 sweep answers. Nothing here
-# goes to Savannah & Spencer until Ben has approved it line by line.
-# Lines starting "⚠️ BEN:" are open questions / unverified — they RENDER on purpose so they can't be
-# missed; delete each one as it's answered.
-# Door codes are NEVER in this file (the repo and the web page are public) — see content/private/codes.md.
+# v0.3 (2026-09-24): Ben's answers folded in; no open questions in the guide itself — those live in
+# content/open-items.md (not rendered). Every line still needs Ben's OK before it goes to S&S.
 # photo: points at the planned final asset; a build warning "missing photo" = a shot still needed.
 meta:
   title: The Cabin — Turnover Guide
-  version: 0.2.0
+  version: 0.3.0
   updated: 2026-09-24
 
 sections:
@@ -27,22 +23,23 @@ sections:
       - id: questions
         title: Ask if anything is unclear
         do:
-          - Don't be afraid to ask questions. Text Ben any time.
-          - "⚠️ BEN: how do they reach you while you are away — iMessage / WhatsApp / a number? Your phone number should NOT appear in the public web version; print-only or hand-written."
+          - Don't be afraid to ask questions. Text Ben any time — 908-566-7635.
 
   - id: get-in
     title: Get in
     steps:
       - id: building-door
         title: Open the building's front door
-        photo: photos/final/building-door-lock.jpg
+        photo: photos/final/ultraloq-diagram.svg
         do:
-          - Enter the code on the keypad, then press the button after it (the button is the part people miss).
-          - "⚠️ BEN: code goes on the binder card / by text — not in this guide. Diagram of the lock + button still needed (you said you'd show it later)."
+          - The lock is a keypad lock with a key slot in the front (an Ultraloq U-Bolt).
+          - Enter the code, then press the bean-shaped button at the BOTTOM of the keypad. That button is what actually unlocks the door — it's the part people miss.
+          - The apartment door has the same kind of lock and works the same way.
       - id: apartment-door
         title: Find the apartment
         do:
           - The apartment is the FIRST DOOR ON THE RIGHT — the first door you reach.
+          - "Enter the code, press the bean-shaped button at the bottom."
       - id: room-door
         title: Find the guest room
         photo: photos/final/unit-door-lock.jpg
@@ -55,14 +52,12 @@ sections:
             then: tell Ben.
       - id: door-screen
         title: Check the screen on the door
-        photo: photos/final/door-screen-low-battery.jpg
+        photo: photos/final/door-screen.jpg
         do:
-          - The small screen on the door shows a low-battery indicator when it needs charging.
+          - The small screen on the door shows a low-battery indicator in its BOTTOM RIGHT corner when it needs charging.
         if:
           - when: it shows low battery
             then: take the screen off the door, plug it into the USB-C charger on the nightstand inside the room, let it charge for the whole turnover (longer if you can), and put it back on the door before you leave.
-          - when: "⚠️ BEN"
-            then: "you mentioned redesigning the indicator to be more visible, or a diagram of where it sits on the screen — which?"
 
   - id: first-look
     title: First look
@@ -90,20 +85,18 @@ sections:
           - Also check beside the kitchen sink for anything the guest already brought out of the room.
           - Throw away trash left on surfaces.
           - If the projector was left on, turn it off.
-      - id: fridge-open
-        title: Check the mini fridge
+      - id: fridge
+        title: Clean the mini fridge
         photo: photos/final/mini-fridge.jpg
         do:
           - Guests are told to leave the fridge EMPTY and OPEN at checkout (it switches off at checkout and defrosts).
           - Take out anything left inside.
           - "There's a defrost dish inside: check it for water. It spills easily when pulled — stuff paper towels in first to soak it up, then pull it out and empty it."
-          - Wipe the inside with a Clorox wipe.
-          - Leave the fridge open for now — you close it at the very end.
+          - Wipe the inside with the bleach spray cleaner from behind the toilet and paper towels.
+          - Close the fridge once it's clean.
         if:
           - when: the fridge was NOT left open
             then: tell Ben (the guest was asked to leave it open).
-          - when: "⚠️ BEN"
-            then: "where will the Clorox wipes live? (you said you'd set some aside — location TBD)"
 
   - id: bed-strip
     title: Strip the bed
@@ -112,7 +105,6 @@ sections:
         title: Look for new stains before you strip
         do:
           - "Check sheets, pillowcases, duvet cover and pillows. What counts: a big NEW bleach stain (small old ones exist — a large one is probably new) · a food stain · a body / oil stain · hair-product stains on the pillows."
-          - "⚠️ BEN: you wanted this broken down clearly, maybe with an example image — which stains do you want photographed?"
         if:
           - when: you find one
             then: take a photo and send it to Ben.
@@ -144,25 +136,11 @@ sections:
         do:
           - "Three BIG containers, side by side: duvet covers · towels · sheets."
           - "Three SMALL containers, one in front of each big one: hand towels + washcloths (in front of towels) · pillowcases (in front of sheets) · cleaning kit (in front of duvet covers)."
-          - "⚠️ BEN: you said you'd verify which small bin is in front of which big one when you go in — and this needs the overhead photo (mattress off, containers outlined)."
+          - A sheet set is a fitted sheet and a flat sheet.
       - id: cleaning-kit
         title: The cleaning kit
         do:
-          - "Lint roller · water + a toothbrush for spot cleaning · pillow chocolates."
-          - "⚠️ BEN: linen spray — you said probably leave it out. Anything else in the kit?"
-
-  - id: vacuum
-    title: Vacuum
-    steps:
-      - id: vacuum
-        title: Quick vacuum
-        photo: photos/final/vacuum.jpg
-        do:
-          - "The vacuum stick is in the kitchen. Its charging base is in the basement, on the tool wall."
-          - Use the carpet attachment on the rugs.
-          - Get obvious crumbs on the desk, the nightstand, and in or around the fridge.
-          - "⚠️ BEN: your newer notes vacuum FIRST (clean floor before bedding — 'maybe overkill'); the old guide vacuums LAST. Placed here, after stripping. Move it?"
-          - "⚠️ BEN: DG-619318 — vacuum + hampers still need to be placed where this says they are."
+          - "Lint roller · all-purpose cleaner · water + a toothbrush for spot cleaning · pillow chocolates."
 
   - id: bed-make
     title: Make the bed
@@ -171,9 +149,8 @@ sections:
         title: Fresh sheets
         photo: photos/final/07-bed-made.jpg
         do:
-          - Fresh sheets from the sheets container.
+          - Fresh fitted sheet and flat sheet from the sheets container.
           - The runner blanket goes across the foot of the bed, covering the bottom third to half.
-          - "⚠️ BEN: what's in a sheet set — fitted + flat, or fitted only?"
       - id: pillows
         title: Pillows
         photo: photos/final/06-headboard.jpg
@@ -183,9 +160,6 @@ sections:
           - Spot-clean any marks on the throw pillows with the toothbrush + water from the kit.
           - The bed-care note on the headboard stays where it is.
           - Put a chocolate on the center pillow from the supply box if the old one was eaten; otherwise put the old one back.
-        if:
-          - when: something is growing on a throw pillow
-            then: remove that pillow and tell Ben.
       - id: hammock
         title: Hammock chair
         photo: photos/final/08-hammock.jpg
@@ -206,9 +180,6 @@ sections:
           - Curtains open and tucked behind the boat cleats.
           - Air conditioner powered OFF. (Unlocking the door turns its outlet on, so if the unit itself is on it will start — turn it off anyway.)
           - The lamp to the left of the window powered ON.
-        if:
-          - when: "⚠️ BEN"
-            then: "space heater — you were deciding whether to put it on a controllable outlet tied to the AC outlet before leaving. If that lands, no heater step is needed here; if not, what should they do with it?"
       - id: remotes
         title: Remotes
         do:
@@ -238,9 +209,8 @@ sections:
           - Noise machine on the "meadow" setting at a reasonable volume.
           - The accordion lamp on, aimed over the nightstand.
           - Charging cable draped over the top of the charging station.
-          - "⚠️ BEN: charging station placement was undecided."
         if:
-          - when: the noise machine is silent
+          - when: the noise machine is on but silent
             then: power it off and on again.
 
   - id: desk-wall
@@ -250,12 +220,13 @@ sections:
         title: Set the desk
         photo: photos/final/desk.jpg
         do:
-          - Wipe the desk with a damp paper towel.
-          - The bin under the desk is empty, with no bag in it (guests use it as a hamper).
-          - Desk lamp on, aimed as pictured. Guests bend it and knock the shade off — put the shade back on.
-          - The recommendations book (the other-colored guide) next to the lamp, as pictured.
-          - The water pitcher empty.
-          - "⚠️ BEN: is the water pitcher still there? And where does the draft stopper hang — behind the door (your 9/23 floor-plan note) or 'on the left'?"
+          - Wipe the desk with a damp paper towel and the all-purpose cleaner from the cleaning kit. The desk is wood — never bleach.
+          - "Make sure that:"
+          - the bin under the desk is empty, with no bag in it (guests use it as a hamper, sometimes for recycling);
+          - the desk lamp is on and aimed as pictured — guests bend it and knock the shade off, so put the shade back on;
+          - the recommendations book (the other-colored guide) is next to the lamp, as pictured;
+          - the water pitcher is empty;
+          - the draft stopper is hanging behind the door.
 
   - id: door-wall
     title: Door wall and check-in shelf
@@ -275,13 +246,12 @@ sections:
           - Rinse the toothbrush cup.
           - The guidebook goes in front of the check-in / check-out buttons, as pictured. Guests move it to the nightstand or the desk.
           - Both guides in place — the guidebook here, the recommendations book by the desk lamp.
-          - "⚠️ BEN: the hanging tote of bathroom/shower products — guests leave things in it. Where do those go?"
+          - Anything a guest left in the hanging tote of bathroom / shower products goes back to the closet shelf (see "Closet").
       - id: purifier-snacks
         title: Air purifier and snacks
         do:
           - Air purifier ON, level 2.
-          - Biscotti and Ricolas — if a jar is more than half empty, refill it. Refills are in the cocotte on Ben's stovetop.
-          - "⚠️ BEN: photo of the cocotte / where refills live (you said it may change)."
+          - Biscotti and Ricolas — if a jar is more than half empty, refill it. Refills are in the cast-iron cooker on Ben's stovetop.
 
   - id: closet
     title: Closet
@@ -290,7 +260,7 @@ sections:
         title: Bath products
         photo: photos/final/01-closet-shelf.jpg
         do:
-          - Products arranged neatly on the shelf as pictured. Bring back anything the guest left in the bathroom.
+          - Products arranged neatly on the shelf as pictured. Bring back anything the guest left in the bathroom or in the hanging tote.
         if:
           - when: a bottle feels completely empty
             then: throw it out and replace it with the full one of the same kind from behind it in the closet.
@@ -300,7 +270,6 @@ sections:
         do:
           - Hair dryer hanging in its holster on the left inside wall of the closet.
           - "On top of the fridge: at least two of each — 2 plates, 2 bowls, 2 of each utensil."
-          - "⚠️ BEN: you wanted to check the dish inventory in person, and to relocate / confirm the makeup wipes."
 
   - id: bathroom
     title: Bathroom
@@ -309,19 +278,18 @@ sections:
         title: Clean the bathroom
         photo: photos/final/shower-set.jpg
         do:
-          - Collect any clothing or products left behind (products go back to the closet shelf).
+          - Products left on the bathroom window shelf or on the sink are probably the guest's — clear them. Anything from the room's closet goes back to the closet shelf.
+          - Collect any clothing left behind.
           - Hair off the shower wall and out of the sink.
           - Toothpaste off the mirror and around it; wipe the sink.
           - Brush the toilet once over — the brush is next to the toilet.
           - Scrub the shower if it needs it.
-          - "⚠️ BEN: needs a CURRENT photo of the shower as it should look this trip (you're hiding your products)."
       - id: bathroom-supplies
         title: Toilet paper, soap, trash
         photo: photos/final/tp-backup.jpg
         do:
-          - Toilet paper on the holder AND a backup roll present. Backups are in the stocked supply — never buy.
+          - Toilet paper on the holder AND a backup roll present. Backup rolls are on the high shelf directly across from the toilet — never buy.
           - Hand soap dispenser full. Refill is under the sink, in the black bag — squeeze it into the dispenser.
-          - "⚠️ BEN: where exactly is the backup TP kept? (photo)"
         if:
           - when: the bathroom trash is fairly full
             then: empty it; new bags are under the current bag.
@@ -329,19 +297,22 @@ sections:
   - id: finish
     title: Finish
     steps:
+      - id: vacuum
+        title: Quick vacuum
+        photo: photos/final/vacuum.jpg
+        do:
+          - The vacuum stick is in the kitchen. Its charging base is on the tool wall in the basement.
+          - Carpet attachment on the rugs.
+          - Get obvious crumbs on the desk, the nightstand, and in or around the fridge.
       - id: trash
         title: Trash out
         do:
           - Empty the room's trash basket. The roll of new bags is in the bin, under the current bag (inside the room, not outside).
           - Take the bags out to the front gated area of the building.
-      - id: fridge-close
-        title: Close the fridge
-        do:
-          - Close the mini fridge now that it's defrosted and wiped.
       - id: last-look
         title: Last look
         do:
-          - Every lamp on. Curtains open. Remotes on the dish. Both guides in place. Purifier on. Containers pushed back.
+          - Every lamp on. Curtains open. Remotes on the dish. Both guides in place. Purifier on. Fridge closed. Containers pushed back.
           - Take a photo of the finished room and send it to Ben.
       - id: leave
         title: Lock up and mark it done
@@ -351,7 +322,6 @@ sections:
           - Lock the bolt.
           - Press the turnover button on the right, just outside the door, ONCE. That tells Ben the turnover is done.
           - If you pressed it by mistake, a double press undoes it.
-          - "⚠️ BEN: interactive version — you want 'submit done' in the app first, and the button only as fallback; print keeps the button. Do NOT mention the long-press (vacuum)."
 
   - id: laundry
     title: Laundry
@@ -360,15 +330,17 @@ sections:
         title: Where the laundry bag is
         photo: photos/final/laundry-closet.jpg
         do:
-          - "Ben may have left the black laundry backpack in the kitchen for you, or in the hallway outside it. If it isn't there, it's outside the apartment at the end of the hall: down the hallway to the left, behind the keypad door, hanging on the wall."
-          - "⚠️ BEN: the keypad code goes on the binder card / by text — not here. And you wanted this as an appendix with photos of the hall door."
-          - "⚠️ BEN: this trip, hampers go in the hallway outside your apartment — is that where the laundry bag lives for S&S, replacing both versions above?"
+          - "There is one laundry bag: a black laundry backpack. It's in one of three places, in this order:"
+          - in the kitchen;
+          - if not, in the hallway leading to Ben's apartment;
+          - if not, at the end of the hall to the left, through the door with the number-code lock (code 2880), hanging on the wall.
+          - Between turnovers, keep the bag in the hallway — unless it started behind the coded door, in which case keep it there.
       - id: laundry-full
         title: When laundry needs to go out
         do:
           - "Send the laundry out when ANY of these is true: the laundry bag is nearly full · only two sheet sets are left · only three towels are left."
-          - Bring the full bag (or two) into Ben's hallway and lean it against the wall near the mail. Text Ben — he schedules the pickup.
-          - The laundry comes back in the same bags, folded, a few days later. Put everything back in the right containers under the bed.
+          - Bring the full bag into Ben's hallway and lean it against the wall near the mail. Text Ben — he schedules the pickup.
+          - The laundry comes back in the same bag, folded, a few days later. Put everything back in the right containers under the bed.
 
   - id: plants
     title: Plants (only if Ben asked you)
@@ -377,6 +349,9 @@ sections:
         title: Water the plants
         do:
           - Not every turnover includes this — only if Ben asked you.
+          - Use the electric plant waterer Ben showed you.
+          - "Plants that are just jars of water: fill them nearly to the rim."
+          - "Large plants: water for 25 seconds, moving slowly around the plant as you go."
+          - "Small plants: 8 seconds."
           - Don't stand on the wicker chair — use the folding step stool (by the robe hook).
           - Send Ben a photo of the plants so he can see how they look.
-          - "⚠️ BEN: which plants, how much, how often — this overlaps the house-sitter watering guide you still have to write. Own page, per your 9/23 note."
